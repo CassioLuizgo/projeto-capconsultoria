@@ -1,0 +1,58 @@
+/*Fontes importadas*/
+/*fonte heading*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*fonte body*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+
+    /*1.CORES*/
+
+    /*cores de background*/
+    --bg-primary: #08090C;
+    --bg-surface: #12141A;
+    --bg-surface-hover: #1E222B;
+    --bg-accent: #A0835B;
+
+    /*cores de texto*/
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --text-bradn: #E5C178;
+
+    /*cores de borda*/
+    --border-subtle: #2D3340;
+    --border-brand: #C5A059;
+
+    /*cores de ação*/
+    --action-primary-bg: #C5A059;
+    --action-primary-text: #08090C;
+    --action-primary-hover: #A37E36;
+
+    /*2.TIPOGRAFIA (FONTES E TAMANHOS)*/
+
+    /*font family*/
+    --font-family-heading: "Playfair Display", serif;
+    --font-family-body: "Plus Jakarta Sans", sans-serif;
+
+    /*tamanho das fontes*/
+    --font-body-small: 0.875rem; /*14px*/
+    --font-body-body: 1rem; /*16px - BASE*/
+    --font-heading-h3: 1.375rem; /*22px*/
+    --font-heading-h2: 2.25rem; /*36px*/
+    --font-heading-h1: 3.5rem; /*56px*/
+
+    /*peso das fontes*/
+    --weight-regular: 400;
+    --weight-mediium: 500;
+    --weight-semi-bold: 600;
+    --weight-bold: 700;
+
+    /*3.ESPAÇAMENTO*/
+    --spacing-s: 0.5rem; /*8px*/
+    --spacing-m: 1rem; /*16px*/
+    --spacing-l: 2rem; /*32px*/
+    --spacing-xl: 4rem; /*64px*/
+    --spacing-xxl: 7.5rem /*120px*/
+}
+
