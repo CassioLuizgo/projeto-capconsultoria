@@ -23,3 +23,50 @@ button {
 a {
     text-decoration: none;
 }
+
+/* ESTILIZAÇÃO CSS*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 120px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-family: var(--font-family-heading);
+    font-size: var(--font-body-small);
+    font-weight: var(--weight-semi-bold);
+    color: var(--text-primary);
+}
+
+.header-span {
+    color: var(--text-brand);
+}
+
+.header-nav_list{
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-m);
+    font-family: var(--font-family-body);
+    font-size: var(--font-body-small);
+    font-weight: var(--weight-semi-bold);
+}
+
+.header-nav_link {
+    color: var(--text-secondary);
+}
+
+.header-actions {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--border-brand);
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.header-btn{
+    font-family: var(--font-family-body);
+    font-size: var(--font-body-small);
+    color: var(--text-primary);
+    
+}

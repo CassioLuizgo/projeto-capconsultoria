@@ -18,7 +18,7 @@
     /*cores de texto*/
     --text-primary: #F8FAFC;
     --text-secondary: #94A3B8;
-    --text-bradn: #E5C178;
+    --text-brand: #E5C178;
 
     /*cores de borda*/
     --border-subtle: #2D3340;
@@ -44,7 +44,7 @@
 
     /*peso das fontes*/
     --weight-regular: 400;
-    --weight-mediium: 500;
+    --weight-medium: 500;
     --weight-semi-bold: 600;
     --weight-bold: 700;
 
